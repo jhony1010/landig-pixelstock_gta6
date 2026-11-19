@@ -1,0 +1,652 @@
+<!doctype html>
+<html lang="es-CO">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#191622">
+  <meta name="description" content="Compra o alquila GTA VI para PS5 en Colombia. Elige Cuenta Primaria, Cuenta Secundaria o cotiza tu alquiler por meses con Pixel Stock.">
+  <title>GTA VI · Compra o Alquila para PS5 | Pixel Stock</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement">
+    GTA VI · PLAYSTATION 5 <span>—</span> Compra definitiva o alquiler por meses · Atención directa en Colombia
+  </div>
+
+  <header class="header">
+    <a class="brand" href="#inicio" aria-label="Pixel Stock inicio">
+      <span class="brand-symbol">▦</span>
+      <span>pixel<span class="brand-bold">stock</span><small>GAMING STORE</small></span>
+    </a>
+    <nav id="nav" aria-label="Navegación principal">
+      <a href="#ediciones">Compra</a>
+      <a href="#comparador">Cotizador alquiler</a>
+      <a href="#como-funciona">Cómo funciona</a>
+      <a href="#consolas">Consolas PS5</a>
+      <a href="#preguntas">Dudas</a>
+    </nav>
+    <div class="header-actions">
+      <a class="nav-contact" href="https://wa.me/573142110418?text=Hola%2C%20quiero%20asesor%C3%ADa%20sobre%20GTA%20VI%20o%20PS5" target="_blank" rel="noopener">
+        Hablar con un asesor <span>↗</span>
+      </a>
+      <button id="menuBtn" class="menu-btn" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="inicio" class="hero">
+      <div class="hero-image" aria-hidden="true"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-content wrap">
+        <div class="eyebrow light"><span class="dot"></span> GRAND THEFT AUTO VI · VICE CITY · PS5</div>
+        <h1>Vice City te espera.<br><em>Juega a tu manera.</em></h1>
+        <p>Compra tu cuenta primaria o secundaria, o alquila GTA VI por los meses que necesites sin pagar el precio completo de entrada.</p>
+        <div class="hero-buttons">
+          <a href="#ediciones" class="btn btn-vice">Ver precios de compra <span>↗</span></a>
+          <a href="#comparador" class="btn btn-ghost">Cotizar alquiler por meses <span>↓</span></a>
+        </div>
+        <div class="hero-bottom">
+          <span>PIXEL STOCK · COLOMBIA</span>
+          <span>DESLIZA PARA DESCUBRIR <b>↓</b></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTRO -->
+    <section class="intro wrap reveal">
+      <div class="section-label">01 / JUEGA SIN PAGAR DE MÁS</div>
+      <div>
+        <h2>Compra definitiva o alquiler.<br><span>Tú decides cuánto invertir.</span></h2>
+        <p>¿Juegas todos los días y quieres el juego para siempre? Elige compra en cuenta primaria o secundaria. ¿Solo quieres pasar la historia o juegas de vez en cuando? Alquila por 1, 2 o 3 meses y ahorra hasta un 85% frente al valor total.</p>
+      </div>
+    </section>
+
+    <!-- EDICIONES Y CUENTAS -->
+    <section id="ediciones" class="editions wrap">
+      <div class="section-heading reveal">
+        <div>
+          <div class="section-label">02 / COMPRA DEFINITIVA</div>
+          <h2>Elige tu edición y cuenta.</h2>
+        </div>
+        <p>Precios en pesos colombianos (COP). Selecciona la edición para ver precios actualizados y el detalle de cada modalidad.</p>
+      </div>
+
+      <div class="edition-selector" role="group" aria-label="Selecciona la edición del juego">
+        <button type="button" class="edition-switch active" data-edition="standard" aria-pressed="true">
+          Standard Edition
+        </button>
+        <button type="button" class="edition-switch" data-edition="ultimate" aria-pressed="false">
+          Ultimate Edition <span class="badge-mini">EXTRAS</span>
+        </button>
+      </div>
+
+      <div class="edition-showcase">
+        <div class="edition-product" aria-label="Opciones de compra de GTA VI">
+          <!-- CUENTA PRIMARIA -->
+          <article class="edition-card edition-card-main reveal">
+            <div class="edition-art standard-art">
+              <span class="tag tag-vice">MÁS POPULAR · PRIMARIA</span>
+              <span class="edition-pill" data-edition-pill>STANDARD</span>
+              <div class="edition-art-title">GRAND<br>THEFT<br>AUTO <strong>VI</strong></div>
+            </div>
+            <div class="edition-body">
+              <div class="edition-top">
+                <h3>Cuenta Primaria</h3>
+                <span>PS5</span>
+              </div>
+              <p>La experiencia más completa: juegas desde tu propio perfil de PlayStation con total comodidad.</p>
+
+              <ul class="feature-check-list">
+                <li>Juegas desde tu <strong>propio perfil</strong></li>
+                <li>Trofeos y progreso en tu cuenta personal</li>
+                <li>Permite jugar <strong>sin internet</strong> (offline)</li>
+                <li>Garantía y soporte Pixel Stock</li>
+              </ul>
+
+              <div class="price-label">Pago único · acceso permanente</div>
+              <div class="big-price" id="editionPrincipalPrice">$227.000 <small>COP</small></div>
+
+              <button type="button" class="btn btn-dark full buy-account" data-access="principal">
+                Comprar Cuenta Primaria ↗
+              </button>
+              <a href="#comparador" class="card-rent-link" data-rent-preset="principal">
+                ¿Solo por un tiempo? Alquílala desde $30.000/mes ↓
+              </a>
+            </div>
+          </article>
+
+          <!-- CUENTA SECUNDARIA -->
+          <article class="edition-card edition-card-main reveal">
+            <div class="edition-art ultimate-art">
+              <img src="assets/ultimate.webp" alt="Arte ilustrado de Grand Theft Auto VI">
+              <span class="tag">ECONÓMICA · SECUNDARIA</span>
+              <span class="edition-pill" data-edition-pill>STANDARD</span>
+            </div>
+            <div class="edition-body">
+              <div class="edition-top">
+                <h3>Cuenta Secundaria</h3>
+                <span>PS5</span>
+              </div>
+              <p>Ideal si buscas el menor precio para disfrutar el juego completo desde la cuenta entregada.</p>
+
+              <ul class="feature-check-list">
+                <li>Juegas desde la <strong>cuenta entregada</strong></li>
+                <li>Mismo juego completo y gráficos PS5</li>
+                <li class="is-note">Requiere conexión a internet al iniciar</li>
+                <li>Opción de compra más económica</li>
+              </ul>
+
+              <div class="price-label">Pago único · acceso permanente</div>
+              <div class="big-price" id="editionSecondaryPrice">$155.000 <small>COP</small></div>
+
+              <button type="button" class="btn btn-dark full buy-account" data-access="secundaria">
+                Comprar Cuenta Secundaria ↗
+              </button>
+              <a href="#comparador" class="card-rent-link" data-rent-preset="secundaria">
+                ¿Prefieres alquilar? Cotiza desde $20.000/mes ↓
+              </a>
+            </div>
+          </article>
+        </div>
+
+        <!-- FICHA DE EDICIÓN -->
+        <aside class="edition-details reveal" aria-live="polite">
+          <span class="section-label">DETALLE DE LA EDICIÓN</span>
+          <h3 id="editionDetailTitle">GTA VI · Standard Edition</h3>
+          <p class="edition-format">DIGITAL · PLAYSTATION 5</p>
+          <div class="detail-rule"></div>
+          <p id="editionDetailDescription">
+            Descubre Vice City y el estado de Leonida en una nueva historia protagonizada por Jason y Lucia. La edición Standard está pensada para quienes quieren vivir la aventura principal.
+          </p>
+          <div class="detail-features">
+            <strong>¿Qué incluye esta edición?</strong>
+            <ul id="editionDetailFeatures">
+              <li>Juego completo GTA VI (historia principal).</li>
+              <li>Optimizado para PlayStation 5 y DualSense.</li>
+              <li>Entrega digital guiada paso a paso.</li>
+            </ul>
+          </div>
+          <div class="detail-note" id="editionDetailNote">
+            ¿No sabes si elegir Primaria o Secundaria? Si te importan tus trofeos y jugar offline, elige Primaria. Si buscas gastar menos, elige Secundaria.
+          </div>
+          <div class="payment-mini-strip">
+            <span>Medios de pago aceptados:</span>
+            <div class="payment-chips">
+              <span>Bre-B / Nequi</span>
+              <span>Wompi</span>
+              <span>Débito</span>
+              <span>Crédito</span>
+              <span>Mercado Pago</span>
+            </div>
+          </div>
+        </aside>
+      </div>
+
+      <!-- TABLA COMPARATIVA RÁPIDA -->
+      <div class="compare-table-wrap reveal">
+        <div class="compare-table-head">
+          <h3>Comparativa rápida: ¿Cuál modalidad te conviene?</h3>
+          <p>Compara de un vistazo antes de comprar o alquilar.</p>
+        </div>
+        <div class="table-scroll">
+          <table class="compare-table">
+            <thead>
+              <tr>
+                <th>Característica</th>
+                <th>Cuenta Primaria</th>
+                <th>Cuenta Secundaria</th>
+                <th class="col-highlight">Alquiler por meses</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>¿Desde qué perfil juegas?</td>
+                <td>Tu propio perfil PSN</td>
+                <td>La cuenta entregada</td>
+                <td class="col-highlight">Según plan elegido</td>
+              </tr>
+              <tr>
+                <td>¿Funciona sin internet (offline)?</td>
+                <td><span class="chk yes">✓</span> Sí</td>
+                <td><span class="chk no">✕</span> Requiere internet</td>
+                <td class="col-highlight"><span class="chk yes">✓</span> Sí (en plan Primaria)</td>
+              </tr>
+              <tr>
+                <td>Trofeos en tu cuenta personal</td>
+                <td><span class="chk yes">✓</span> Sí</td>
+                <td><span class="chk no">✕</span> En la cuenta entregada</td>
+                <td class="col-highlight"><span class="chk yes">✓</span> Sí (en plan Primaria)</td>
+              </tr>
+              <tr>
+                <td>Duración del acceso</td>
+                <td>Permanente (tuya)</td>
+                <td>Permanente (tuya)</td>
+                <td class="col-highlight">1 a 12 meses (tú eliges)</td>
+              </tr>
+              <tr>
+                <td>Inversión inicial (Standard)</td>
+                <td><strong>$227.000 COP</strong></td>
+                <td><strong>$155.000 COP</strong></td>
+                <td class="col-highlight"><strong>Desde $20.000/mes</strong></td>
+              </tr>
+              <tr>
+                <td>Ideal para…</td>
+                <td>Jugadores frecuentes</td>
+                <td>Ahorrar en compra fija</td>
+                <td class="col-highlight">Pasar la historia / jugador ocasional</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- COTIZADOR DE ALQUILER -->
+    <section id="comparador" class="comparison">
+      <div class="comparison-watermark" aria-hidden="true"></div>
+      <div class="wrap compare-layout">
+        <div class="compare-copy reveal">
+          <div class="section-label light">03 / ALQUILER POR MESES</div>
+          <h2>Juega el estreno.<br><span>Sin pagar el total.</span></h2>
+          <p>Si no tienes tiempo para jugar todo el año o prefieres no desembolsar el valor completo de una sola vez, alquila GTA VI por los meses que realmente lo vas a disfrutar.</p>
+
+          <div class="comparison-points experience-benefits">
+            <div>
+              <span>01</span>
+              <strong>Paga solo el tiempo que juegas</strong>
+              <small>Desde 1 mes para pasarte la historia hasta los meses que quieras a tu ritmo.</small>
+            </div>
+            <div>
+              <span>02</span>
+              <strong>Compara tu ahorro en vivo</strong>
+              <small>El cotizador te muestra cuánto ahorras frente a comprar el juego definitivo.</small>
+            </div>
+            <div>
+              <span>03</span>
+              <strong>Transparente y sin letra pequeña</strong>
+              <small>Si vas a jugar muchos meses, el sistema te avisa cuando te conviene más comprarlo.</small>
+            </div>
+          </div>
+
+          <div class="compare-aside">
+            <span>PERFECTO PARA JUGADORES ESPORÁDICOS</span>
+            <strong>Disfruta Vice City hoy desde $20.000 COP al mes.</strong>
+          </div>
+        </div>
+
+        <div class="calculator reveal">
+          <div class="calculator-head">
+            <span>COTIZADOR DE ALQUILER · GTA VI</span>
+            <span>PS5</span>
+          </div>
+          <h3 class="months-heading primary-question">Calcula tu alquiler en segundos.</h3>
+          <p>Elige edición, tipo de cuenta y duración para ver tu costo total y cuánto ahorras frente a comprar.</p>
+
+          <div class="calculator-divider"></div>
+
+          <span class="section-label">01 / ELIGE LA EDICIÓN</span>
+          <div class="tabs" role="group" aria-label="Edición para alquiler">
+            <button type="button" class="tab active" data-edition="standard" aria-pressed="true">Standard</button>
+            <button type="button" class="tab" data-edition="ultimate" aria-pressed="false">Ultimate</button>
+          </div>
+
+          <span class="section-label">02 / ELIGE EL TIPO DE CUENTA</span>
+          <div class="choice-row" role="group" aria-label="Tipo de cuenta para alquiler">
+            <button type="button" class="choice active" data-access="principal" aria-pressed="true">
+              Cuenta Primaria
+              <small>$30.000/mes · tu perfil</small>
+            </button>
+            <button type="button" class="choice" data-access="secundaria" aria-pressed="false">
+              Cuenta Secundaria
+              <small>$20.000/mes · económica</small>
+            </button>
+          </div>
+
+          <div class="range-row">
+            <label for="months">03 / ¿CUÁNTOS MESES QUIERES JUGAR?</label>
+            <strong id="monthsLabel">2 meses</strong>
+          </div>
+
+          <div class="quick-months" role="group" aria-label="Duración rápida">
+            <button type="button" class="month-pill" data-months="1">1 mes <span>Historia</span></button>
+            <button type="button" class="month-pill active" data-months="2">2 meses <span>Recomendado</span></button>
+            <button type="button" class="month-pill" data-months="3">3 meses <span>Casual</span></button>
+            <button type="button" class="month-pill" data-months="6">6 meses</button>
+          </div>
+
+          <input id="months" type="range" min="1" max="12" value="2" aria-label="Meses de alquiler">
+
+          <!-- COMPARATIVA DE AHORRO EN TIEMPO REAL -->
+          <div class="savings-box" aria-live="polite">
+            <div class="savings-top">
+              <div>
+                <span class="section-label">TOTAL DE TU ALQUILER</span>
+                <strong class="savings-total" id="rentalValue">$60.000</strong>
+                <small id="monthlyBreakdown">2 meses × $30.000/mes</small>
+              </div>
+              <div class="savings-badge-col">
+                <span class="savings-pill" id="savingsBadge">Ahorras $167.000 (74%)</span>
+                <small id="buyCompareText">vs. $227.000 compra definitiva</small>
+              </div>
+            </div>
+            <div class="savings-bar" aria-hidden="true">
+              <div class="savings-bar-fill" id="savingsBarFill" style="width:26%"></div>
+            </div>
+          </div>
+
+          <!-- AVISO INTELIGENTE DE PUNTO DE EQUILIBRIO -->
+          <div class="breakeven-alert" id="breakevenAlert" hidden>
+            <strong>💡 Tip de ahorro inteligente:</strong>
+            <span id="breakevenText">Por este tiempo te conviene más comprar la cuenta definitiva y quedártela para siempre.</span>
+            <button type="button" class="btn-inline" id="switchToBuyBtn">Cambiar a compra definitiva ↗</button>
+          </div>
+
+          <div class="quote-action-panel">
+            <div>
+              <span class="section-label">TU SELECCIÓN ACTUAL</span>
+              <strong id="quoteSelection">Standard · Cuenta Primaria · 2 meses</strong>
+              <small id="quoteMonthly">Total alquiler: $60.000 COP</small>
+            </div>
+            <button type="button" class="btn btn-vice full" id="quotePlanBtn">
+              Solicitar alquiler por WhatsApp ↗
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CÓMO FUNCIONA Y GARANTÍA -->
+    <section id="como-funciona" class="how-it-works wrap">
+      <div class="section-heading reveal">
+        <div>
+          <div class="section-label">04 / PROCESO Y GARANTÍA</div>
+          <h2>Así de fácil empiezas a jugar.</h2>
+        </div>
+        <p>Entrega digital rápida y acompañada. Sin conocimientos técnicos complicados ni pagos ocultos.</p>
+      </div>
+
+      <div class="steps-grid">
+        <article class="step-card reveal">
+          <span class="step-num">01</span>
+          <h3>Elige compra o alquiler</h3>
+          <p>Selecciona si prefieres cuenta Primaria o Secundaria para compra definitiva, o cotiza los meses que quieras alquilar.</p>
+        </article>
+        <article class="step-card reveal">
+          <span class="step-num">02</span>
+          <h3>Paga de forma segura</h3>
+          <p>Elige tu medio de pago (Bre-B, Nequi, Wompi, Mercado Pago o tarjeta) y confirma disponibilidad con nuestro asesor.</p>
+        </article>
+        <article class="step-card reveal">
+          <span class="step-num">03</span>
+          <h3>Instala en minutos</h3>
+          <p>Recibes tus credenciales y una guía visual paso a paso para activar el juego en tu PS5 en menos de 10 minutos.</p>
+        </article>
+        <article class="step-card reveal">
+          <span class="step-num">04</span>
+          <h3>Garantía y soporte real</h3>
+          <p>Te acompañamos por WhatsApp durante todo tu tiempo de juego o compra. Respaldo y atención humana en Colombia.</p>
+        </article>
+      </div>
+
+      <div class="trust-banner reveal">
+        <div>
+          <strong>⚡ Entrega digital en minutos</strong>
+          <span>Una vez validado el pago, recibes instrucciones claras al instante.</span>
+        </div>
+        <div>
+          <strong>🛡️ Cuentas verificadas y soporte</strong>
+          <span>Asesoría directa ante cualquier duda de configuración en tu consola.</span>
+        </div>
+        <div>
+          <strong>🔄 Renueva o pasa a compra</strong>
+          <span>Si alquilaste y quieres seguir jugando, puedes extender tu tiempo fácilmente.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCIA PS5 -->
+    <section class="experience wrap reveal">
+      <div class="experience-text">
+        <div class="section-label">05 / HARDWARE OFICIAL</div>
+        <h2>El juego que quieres.<br><span>La consola que mereces.</span></h2>
+        <p>Diseñada para PS5, la experiencia cobra vida con el control DualSense, el almacenamiento SSD ultrarrápido y el ecosistema PlayStation.</p>
+        <a class="text-link" href="#consolas">Conoce las consolas disponibles ↗</a>
+      </div>
+      <div class="experience-image">
+        <img src="assets/ps5-disc.webp" alt="Caja de PlayStation 5 Slim con lector de discos">
+      </div>
+    </section>
+
+    <!-- CONSOLAS -->
+    <section id="consolas" class="consoles">
+      <div class="wrap">
+        <div class="section-heading reveal">
+          <div>
+            <div class="section-label">06 / COMPLETA TU SETUP</div>
+            <h2>¿Aún no tienes tu PS5?</h2>
+            <p>Elige la mejor versión para ti. <strong>Envíos a nivel nacional.</strong></p>
+          </div>
+          <p>Dos versiones, la misma nueva generación. Selecciona la que se ajuste a tu forma de comprar y jugar.</p>
+        </div>
+
+        <div class="console-grid">
+          <article class="console-card reveal">
+            <div class="console-photo">
+              <img src="assets/ps5-digital.webp" alt="Caja PlayStation 5 Slim Digital Edition">
+            </div>
+            <div class="console-info">
+              <div class="console-heading">
+                <h3>PS5 Slim Digital</h3>
+                <span>Sin lector</span>
+              </div>
+              <p>Para una biblioteca completamente digital, ideal para cuentas y alquileres.</p>
+              <ul>
+                <li>100% compatible con juegos y cuentas digitales</li>
+                <li>Diseño compacto Slim sin lector de discos</li>
+                <li>Control inalámbrico DualSense incluido*</li>
+              </ul>
+              <div class="console-price">$3.100.000 <small>COP</small></div>
+              <button type="button" class="btn btn-dark full checkout-trigger" data-product="PS5 Slim Digital" data-price="3100000">
+                Consultar compra y pago ↗
+              </button>
+            </div>
+          </article>
+
+          <article class="console-card reveal">
+            <div class="console-photo">
+              <img src="assets/ps5-disc.webp" alt="Caja PlayStation 5 Slim con lector de discos">
+            </div>
+            <div class="console-info">
+              <div class="console-heading">
+                <h3>PS5 Slim con disco</h3>
+                <span>Con lector</span>
+              </div>
+              <p>Flexibilidad total para disfrutar juegos físicos en disco y catálogo digital.</p>
+              <ul>
+                <li>Compatible con discos de PS5 y PS4 admitidos</li>
+                <li>También permite juegos y cuentas digitales</li>
+                <li>Control inalámbrico DualSense incluido*</li>
+              </ul>
+              <div class="console-price">$3.500.000 <small>COP</small></div>
+              <button type="button" class="btn btn-dark full checkout-trigger" data-product="PS5 Slim con disco" data-price="3500000">
+                Consultar compra y pago ↗
+              </button>
+            </div>
+          </article>
+        </div>
+        <p class="fineprint">* Características y disponibilidad sujetas a confirmación de inventario, envío y condiciones de venta con el asesor.</p>
+      </div>
+    </section>
+
+    <!-- BENEFICIOS -->
+    <section class="service-strip wrap">
+      <div><span>✧</span><b>Asesoría humana</b><small>Te ayudamos a elegir sin rodeos</small></div>
+      <div><span>↗</span><b>Envíos y entrega rápida</b><small>Digital en minutos · Consolas a todo el país</small></div>
+      <div><span>✓</span><b>Precios claros en COP</b><small>Confirma el total antes de pagar</small></div>
+    </section>
+
+    <!-- PREGUNTAS FRECUENTES -->
+    <section id="preguntas" class="faq wrap">
+      <div>
+        <div class="section-label">07 / RESOLVEMOS TUS DUDAS</div>
+        <h2>Todo más claro.</h2>
+        <p>Las respuestas rápidas antes de elegir tu plan.</p>
+      </div>
+      <div class="faq-list">
+        <details>
+          <summary>¿Cuál es la diferencia entre Cuenta Primaria y Secundaria? <span>+</span></summary>
+          <p>Con la <strong>Cuenta Primaria</strong> activas la consola y juegas directamente desde tu propio perfil personal de PlayStation, guardando tus trofeos y pudiendo jugar sin internet. Con la <strong>Cuenta Secundaria</strong> juegas iniciando sesión en la cuenta entregada (requiere internet para validar la licencia), por eso es más económica.</p>
+        </details>
+        <details>
+          <summary>¿Cómo funciona el alquiler por meses? <span>+</span></summary>
+          <p>Eliges si quieres alquilar en modalidad Primaria ($30.000/mes) o Secundaria ($20.000/mes) y seleccionas cuántos meses deseas jugar (de 1 a 12). Al finalizar el tiempo contratado puedes renovar fácilmente por otro mes o dejarlo hasta ahí sin compromisos.</p>
+        </details>
+        <details>
+          <summary>¿Qué pasa si quiero alquilar muchos meses? <span>+</span></summary>
+          <p>Nuestro cotizador calcula automáticamente la diferencia frente al precio de compra. Si el tiempo que eliges se acerca o supera el valor de compra definitiva, el sistema te lo indicará para que no pagues de más y elijas comprar la cuenta permanente.</p>
+        </details>
+        <details>
+          <summary>¿Necesito PS Plus para jugar GTA VI? <span>+</span></summary>
+          <p>Para jugar el modo historia para un jugador no necesitas suscripción a PS Plus. Para modos multijugador online en PlayStation, sí se requiere una suscripción activa de PS Plus en tu consola.</p>
+        </details>
+        <details>
+          <summary>¿Cómo pago y en cuánto tiempo recibo mi juego o PS5? <span>+</span></summary>
+          <p>Al hacer clic en comprar o alquilar, eliges tu medio de pago preferido (Bre-B/Nequi, débito, crédito, Wompi o Mercado Pago) y envías tu solicitud por WhatsApp. Las entregas digitales se realizan en minutos tras confirmar el pago, y las consolas se despachan a nivel nacional.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- CIERRE -->
+    <section class="closing">
+      <div class="wrap closing-inner">
+        <div>
+          <div class="section-label light">PIXEL STOCK · GAMING COLOMBIA</div>
+          <h2>Tu próxima aventura<br>empieza aquí.</h2>
+        </div>
+        <a href="https://wa.me/573142110418?text=Hola%2C%20quiero%20asesor%C3%ADa%20sobre%20GTA%20VI%20y%20PS5" target="_blank" rel="noopener" class="btn btn-vice">
+          Hablar con un asesor ↗
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer wrap">
+    <div class="footer-brand">
+      <a class="brand" href="#inicio">
+        <span class="brand-symbol">▦</span>
+        <span>pixel<span class="brand-bold">stock</span><small>GAMING STORE</small></span>
+      </a>
+      <p>Gaming con criterio. Compra o alquila a tu ritmo con acompañamiento real en Colombia.</p>
+    </div>
+    <div>
+      <b>Explora</b>
+      <a href="#ediciones">Compra definitiva</a>
+      <a href="#comparador">Cotizador alquiler</a>
+      <a href="#como-funciona">Cómo funciona</a>
+      <a href="#consolas">Consolas PS5</a>
+    </div>
+    <div>
+      <b>Información</b>
+      <a href="#preguntas">Preguntas frecuentes</a>
+      <button type="button" id="cookiesSettings" class="footer-link">Preferencias de cookies</button>
+      <a href="mailto:contacto@ejemplo.com">contacto@ejemplo.com</a>
+    </div>
+    <div>
+      <b>Síguenos</b>
+      <a href="https://instagram.com/" target="_blank" rel="noopener">Instagram ↗</a>
+      <a href="https://facebook.com/" target="_blank" rel="noopener">Facebook ↗</a>
+      <a href="https://tiktok.com/" target="_blank" rel="noopener">TikTok ↗</a>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> Pixel Stock. Todos los derechos reservados.</span>
+      <span>Precios de referencia en COP sujetos a confirmación de inventario.</span>
+    </div>
+  </footer>
+
+  <!-- WHATSAPP FLOTANTE -->
+  <a class="whatsapp" href="https://wa.me/573142110418?text=Hola%2C%20necesito%20asesor%C3%ADa%20sobre%20GTA%20VI%20o%20PS5" target="_blank" rel="noopener" aria-label="Asesoría por WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path fill="currentColor" d="M20.5 3.5A11.8 11.8 0 0 0 2.2 17.7L.6 23.4l5.9-1.5a11.8 11.8 0 0 0 5.6 1.4h.1A11.8 11.8 0 0 0 20.5 3.5ZM12.2 21.3a9.7 9.7 0 0 1-5-1.4l-.4-.2-3.5.9.9-3.4-.2-.4a9.7 9.7 0 1 1 8.2 4.5Zm5.3-7.2c-.3-.2-1.7-.9-2-1s-.5-.2-.7.2-.8 1-1 1.1-.4.2-.7 0a8 8 0 0 1-2.4-1.5 9 9 0 0 1-1.7-2.1c-.2-.3 0-.5.1-.7l.5-.6.3-.5c.1-.2 0-.4 0-.6L9 6.5c-.2-.5-.4-.4-.7-.4h-.6c-.2 0-.6.1-.9.4S5.6 7.6 5.6 9s1.2 2.8 1.4 3 2.4 3.6 5.8 5c.8.3 1.4.5 1.9.6.8.1 1.5.1 2-.1.6-.2 1.7-.7 1.9-1.4.2-.7.2-1.3.2-1.4s-.3-.2-.6-.4Z"/>
+    </svg>
+    <span>¿Te asesoramos?</span>
+  </a>
+
+  <!-- CHECKOUT UNIFICADO (COMPRA GTA VI / ALQUILER GTA VI / CONSOLAS PS5) -->
+  <div class="modal-backdrop" id="checkoutBackdrop" hidden>
+    <section class="checkout-panel" role="dialog" aria-modal="true" aria-labelledby="checkoutTitle">
+      <div class="checkout-header">
+        <div>
+          <span class="section-label">PIXEL STOCK · RESUMEN DE PEDIDO</span>
+          <h2 id="checkoutTitle">Tu solicitud</h2>
+        </div>
+        <button type="button" class="icon-btn" id="checkoutClose" aria-label="Cerrar">×</button>
+      </div>
+
+      <div class="order-summary">
+        <div class="order-icon" id="orderIcon">GTA</div>
+        <div>
+          <strong id="orderProduct">GTA VI Standard · Cuenta Primaria</strong>
+          <small id="orderSubtitle">Compra definitiva · Pago único</small>
+        </div>
+        <strong id="orderBase">$227.000</strong>
+      </div>
+
+      <div class="checkout-section">
+        <h3>Elige tu medio de pago preferido</h3>
+        <p>Calculamos un estimado según la pasarela elegida. No ingreses datos de tarjeta aquí; el pago se coordina de forma segura con tu asesor.</p>
+        <div class="payment-options" id="paymentOptions">
+          <label><input type="radio" name="payment" value="breb" checked><span>Llave Bre-B / Nequi</span><small>0% recargo</small></label>
+          <label><input type="radio" name="payment" value="debit"><span>Tarjeta débito</span><small>0% recargo</small></label>
+          <label><input type="radio" name="payment" value="wompi"><span>Wompi</span><small>+3% pasarela</small></label>
+          <label><input type="radio" name="payment" value="mercado"><span>Mercado Pago</span><small>+4% pasarela</small></label>
+          <label><input type="radio" name="payment" value="credit"><span>Tarjeta crédito</span><small>+5% pasarela</small></label>
+        </div>
+      </div>
+
+      <div class="checkout-totals">
+        <div><span>Subtotal</span><strong id="subTotal">$227.000</strong></div>
+        <div><span>Recargo pasarela</span><strong id="feeTotal">$0</strong></div>
+        <div class="total-line"><span>Total estimado</span><strong id="grandTotal">$227.000</strong></div>
+        <p id="checkoutNotice">Entrega digital guiada tras confirmar tu pago por WhatsApp.</p>
+      </div>
+
+      <label class="confirm-label">
+        <input type="checkbox" id="orderConsent">
+        Confirmo mi solicitud para validar disponibilidad y recibir las instrucciones de pago y entrega por WhatsApp.
+      </label>
+
+      <button type="button" class="btn btn-vice full" id="confirmOrder" disabled>
+        Confirmar pedido por WhatsApp ↗
+      </button>
+    </section>
+  </div>
+
+  <!-- MODAL DE COOKIES (SOLO BAJO DEMANDA DESDE EL FOOTER) -->
+  <div class="cookie-backdrop" id="cookieBackdrop" hidden>
+    <section class="cookie-modal" role="dialog" aria-modal="true" aria-labelledby="cookieTitle">
+      <button type="button" id="cookieClose" class="cookie-x" aria-label="Cerrar">×</button>
+      <div class="cookie-photo"></div>
+      <div class="cookie-content">
+        <span class="section-label">PRIVACIDAD · PIXEL STOCK</span>
+        <h2 id="cookieTitle">Preferencias de cookies</h2>
+        <p>Usamos almacenamiento local únicamente para recordar tus preferencias básicas de navegación en este sitio.</p>
+        <div class="cookie-checks">
+          <label><input type="checkbox" checked disabled> Cookies necesarias <small>Siempre activas</small></label>
+          <label><input type="checkbox" id="analyticsCookies"> Cookies de análisis <small>Opcionales</small></label>
+          <label><input type="checkbox" id="marketingCookies"> Cookies de marketing <small>Opcionales</small></label>
+        </div>
+        <div class="cookie-actions">
+          <button type="button" class="btn btn-outline" id="rejectCookies">Solo necesarias</button>
+          <button type="button" class="btn btn-dark" id="acceptCookies">Guardar preferencias</button>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
